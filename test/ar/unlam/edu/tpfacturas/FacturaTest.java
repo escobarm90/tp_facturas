@@ -6,8 +6,7 @@ public class FacturaTest {
 
 	@Test
 	public void queSePuedaCrearUnaFactura() {
-		Factura nuevaFactura = Factura(Arraylist detalle, Arraylist impuestos );
-		
+			
 	}
 	
 	@Test

@@ -12,19 +12,19 @@ public class Articulo {
 	}
 
 	public String getDescripcion() {
-		return descripcion;
+		return this.descripcion;
 	}
 
 	public Double getPrecio() {
-		return precio;
+		return this.precio;
 	}
 	
-	public Double getImpuestoArticulo() {
-		return precio*IMPUESTO;
+	public Double getImpuesto() {
+		return this.precio*IMPUESTO;
 	}
 	
 	public Double getPrecioConImpuesto() {
-		return precio + getImpuestoArticulo();
+		return this.precio + getImpuesto();
 	}
 	
 	

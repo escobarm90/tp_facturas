@@ -34,7 +34,7 @@ public class ArticuloTest {
 	public void queUnArticuloInformeSuImpuesto() {
 		Articulo nuevo = new Articulo("comida", 100.0);
 		
-		assertEquals(nuevo.getImpuestoArticulo(),21.0,0.1);
+		assertEquals(nuevo.getImpuesto(),21.0,0.1);
 	}
 	
 	@Test
