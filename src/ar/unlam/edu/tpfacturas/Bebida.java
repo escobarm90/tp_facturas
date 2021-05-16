@@ -17,6 +17,6 @@ public class Bebida extends Articulo {
 	
 	@Override
 	public Double getPrecioConImpuesto() {
-		return super.getPrecioConImpuesto() + this.getImpuesto();
+		return super.precio + super.getImpuesto() + this.getImpuesto();
 	}
 }

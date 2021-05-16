@@ -35,7 +35,7 @@ public class BebidaTest {
 	public void queUnaBebidaInformeSuPrecioConImpuesto() {
 		Bebida nueva = new Bebida("Fernet", 100.0);
 		
-		assertEquals(nueva.getPrecioConImpuesto(),121.0,0.1);
+		assertEquals(nueva.getPrecioConImpuesto(),136.0,0.1);
 	}
 	
 	
